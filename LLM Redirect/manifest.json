@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "LLM Blocker",
+  "name": "LLM Redirect",
   "version": "1.0",
   "description": "Redirects major LLM websites to Google",
   "content_scripts": [
