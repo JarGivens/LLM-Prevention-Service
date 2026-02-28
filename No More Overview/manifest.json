@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "No More Overview",
+  "version": "1.0",
+  "description": "Redirects Google searches to use WEB results instead of ALL results so that the AI overview is not generated.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
