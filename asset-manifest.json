@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LLM-Prevention-Service/static/css/main.f855e6bc.css",
+    "main.js": "/LLM-Prevention-Service/static/js/main.80baa5ab.js",
+    "static/js/453.fd2f0c4a.chunk.js": "/LLM-Prevention-Service/static/js/453.fd2f0c4a.chunk.js",
+    "static/media/logo.svg": "/LLM-Prevention-Service/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/LLM-Prevention-Service/index.html",
+    "main.f855e6bc.css.map": "/LLM-Prevention-Service/static/css/main.f855e6bc.css.map",
+    "main.80baa5ab.js.map": "/LLM-Prevention-Service/static/js/main.80baa5ab.js.map",
+    "453.fd2f0c4a.chunk.js.map": "/LLM-Prevention-Service/static/js/453.fd2f0c4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.80baa5ab.js"
+  ]
+}
