@@ -8,4 +8,6 @@ Made for the University of Deleware event [Henhacks 2026](https://www.henhacksha
 #### No More Overview
 *Prevents the Google Gemini overview from being made by redirecting your search to be a "web" search rather than an "all" search.*
 #### Bat That Chat
-Prevents LLM sites from loading by creating an endless stream of pop-ups.
+*Prevents LLM sites from loading by creating an endless stream of pop-ups.*
+#### You're Scaring the LLMS
+*Makes all of the HTML elements on the LLM websites shake, making the sites very hard to use.*
