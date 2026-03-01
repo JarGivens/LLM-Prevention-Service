@@ -8,18 +8,24 @@ function App() {
       <h1 className='App'>Anti-Ai Extensions (for the environment :3 )</h1>
       <table>
         <tr>
-          <td><div className='Extension-Box'>
+          <td><div className='Extension-Box'><a href="https://chromewebstore.google.com/category/extensions">
             <h3 style={{margin: 0}}>Bat that Chat</h3>
             <p>Spams prompts when you go to most LLM websites.</p>
+            </a>
           </div></td>
-          <td><div className='Extension-Box'><h3 style={{margin: 0}}>LLM Redirect</h3>
-            <p>Takes you to google when you go to most LLM websites.</p></div></td>
+          <td><div className='Extension-Box'><a href="https://chromewebstore.google.com/category/extensions">
+            <h3 style={{margin: 0}}>LLM Redirect</h3>
+            <p>Takes you to google when you go to most LLM websites.</p>
+            </a></div></td>
         </tr>
         <tr>
-          <td><div className='Extension-Box'><h3 style={{margin: 0}}>No More Overview</h3>
-            <p>Removes the AI overview on google searches.</p></div></td>
-          <td><div className='Extension-Box'><h3 style={{margin: 0}}>Jack Idea</h3>
-            <p>Does a thing.</p></div></td>
+          <td><div className='Extension-Box'> <a href="https://chromewebstore.google.com/category/extensions">
+            <h3 style={{margin: 0}}>No More Overview</h3>
+            <p>Removes the AI overview on google searches.</p>
+            </a>
+            </div></td>
+          <td><div className='Extension-Box'> <a href="https://chromewebstore.google.com/category/extensions"><h3 style={{margin: 0}}>Jack Idea</h3>
+            <p>Does a thing.</p></a></div></td>
         </tr>
       </table>
       
