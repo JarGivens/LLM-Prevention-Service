@@ -3,6 +3,7 @@
   "name": "No More Overview",
   "version": "1.0",
   "description": "Redirects Google searches to use WEB results instead of ALL results so that the AI overview is not generated.",
+  "permissions": ["tabs"],
   "content_scripts": [
     {
       "matches": [
