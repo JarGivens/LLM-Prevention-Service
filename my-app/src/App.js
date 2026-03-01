@@ -5,7 +5,7 @@ function App() {
   return (
     <body>
     <div>
-      <h1 className='App'>Anti-Ai Extensions (for the environment :3 )</h1>
+      <h1 className='App'>Anti-Ai Extensions (for the environment!)</h1>
       <table>
         <tr>
           <td><div className='Extension-Box'><a href="https://chromewebstore.google.com/category/extensions">
@@ -24,8 +24,8 @@ function App() {
             <p>Removes the AI overview on google searches.</p>
             </a>
             </div></td>
-          <td><div className='Extension-Box'> <a href="https://chromewebstore.google.com/category/extensions"><h3 style={{margin: 0}}>Jack Idea</h3>
-            <p>Does a thing.</p></a></div></td>
+          <td><div className='Extension-Box'> <a href="https://chromewebstore.google.com/category/extensions"><h3 style={{margin: 0}}>You're Scaring the LLMs</h3>
+            <p>The LLMs shake when they see you.</p></a></div></td>
         </tr>
       </table>
       
