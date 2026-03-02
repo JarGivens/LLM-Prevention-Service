@@ -1,6 +1,11 @@
 {
   "manifest_version": 3,
   "name": "You're Scaring The LLMs",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
   "version": "1.0",
   "description": "The LLMs can't stop shaking when they see you! Please stop using them!",
   "content_scripts": [
