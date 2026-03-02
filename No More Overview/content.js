@@ -1,10 +1,16 @@
 (function () {
-  const url = new URL(window.location.href);                             // get the url of the current page  
-  if (url.hostname.includes("google.") && url.pathname === "/search") {  // checks for if is google search results page?
-    const hasWebParam = url.searchParams.get("udm") === "web";           // force search type to be web results only
-    if (!hasWebParam) {
-      url.searchParams.set("udm", "web");                                // force search type to be web results only step 2
-      window.location.replace(url.toString());                           // set the new url
+  const url = new URL(window.location.href);
+
+  // Only run on Google search result pages
+  if (url.hostname.includes("google.") && url.pathname === "/search") {
+
+    const query = url.searchParams.get("q");
+    if (!query) return;
+
+    // If it doesn't already include -ai, add it
+    if (!query.includes(" -ai")) {
+      url.searchParams.set("q", query + " -ai");
+      window.location.replace(url.toString());
     }
   }
-})();  // Auto-call function
+})();
